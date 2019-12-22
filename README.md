@@ -2,10 +2,10 @@
 
 ### A Full-Stack ToDo List App
 
-### Mockups created on [Figma.com. Click Here to see.](https://www.figma.com/file/R70i0ZDwFGImcZxGyDrRkJ/Don-t-Forget...?node-id=0%3A1)
+### Wire Frames created on [Figma.com. Click Here to see.](https://www.figma.com/file/R70i0ZDwFGImcZxGyDrRkJ/Don-t-Forget...?node-id=0%3A1)
 
-### FrontEnd Link - GitHub
-HeribertoUroza/Dont_Forget_FE
+### Design Doc
+[Click Here to see.](https://docs.google.com/document/d/1vdchRHteKdxYIdVm2XrUN48xHLqCArDo-oQ4UUKSZdI/edit?usp=sharing)
 
 ### BackEnd Link - GitHub
-HeribertoUroza/Dont_Forget_BE
+www.github.com/HeribertoUroza/Dont_Forget_BE
