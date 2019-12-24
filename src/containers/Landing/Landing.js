@@ -9,7 +9,7 @@ import Catergories from '../../components/Categories/Categories'
 function Landing() {
     return(
         <>
-            <div className='container'> Landing
+            <div className='container'>
                 <Catergories />
             </div>
         </>
