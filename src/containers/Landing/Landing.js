@@ -10,14 +10,18 @@ class Landing extends Component {
 
     state = {
         catergories_name: 'Categories',
-        list_items: ['Milk', 'Eggs', 'Bread'],
+        list_items: [   {name:'Milk', is_completed: 'FALSE'}, 
+                        {name:'Eggs', is_completed: 'FALSE'},  
+                        {name:'Bread', is_completed: 'TRUE'}    ],
     };
-    
+
     render(){
+        let { catergories_name, list_items } = this.state;
+
         return (
             <>
                 <div className='container'>
-                    <Catergories />
+                    <Catergories name={ catergories_name } list_items={ list_items }/>
                 </div>
             </>
         )
