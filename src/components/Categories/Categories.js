@@ -9,8 +9,11 @@ import List from '../Lists/Lists'
 
 function Categories (props) {
     return (
-        <> 
-            <div>{props.name}</div>
+        <>
+            <div className='category_container'>
+                <div className='category_name'>{props.name}</div>
+            </div> 
+            
             <div>
             {
                 props.list_items.map((e,i) => {

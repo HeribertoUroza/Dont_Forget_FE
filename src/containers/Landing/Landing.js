@@ -9,7 +9,7 @@ import Catergories from '../../components/Categories/Categories'
 class Landing extends Component {
 
     state = {
-        catergories_name: 'Categories',
+        catergories_name: 'Create Categories',
         list_items: [   {name:'Milk', is_completed: 'FALSE'}, 
                         {name:'Eggs', is_completed: 'FALSE'},  
                         {name:'Bread', is_completed: 'TRUE'}    ],

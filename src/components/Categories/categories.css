@@ -1,0 +1,12 @@
+.category_container {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+.category_name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 3rem
+}
