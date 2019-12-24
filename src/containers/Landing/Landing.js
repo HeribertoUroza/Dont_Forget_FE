@@ -1,12 +1,19 @@
 import React from 'react';
-import './landing.css'
+
+//CSS
+import './landing.css';
+
+//COMPONENTS
+import Catergories from '../../components/Categories/Categories'
 
 function Landing() {
     return(
         <>
-            Landing Page
+            <div className='container'> Landing
+                <Catergories />
+            </div>
         </>
     );
 }
 
-export default Landing
+export default Landing;
