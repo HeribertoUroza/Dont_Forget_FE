@@ -4,9 +4,18 @@ import React from 'react';
 import './lists.css'
 
 function List (props){
+    console.log('list', props.list_items)
+    let listItemArr = props.list_items
+
     return (
-        <>
-            <div>{ props.list_name }</div>
+        <>  
+
+            {
+                listItemArr.map((e,i) => {
+                    console.log(e)
+                    return <div className='list_name' key={i}>{e.name}</div>
+                })
+            }
         </>
     )
 };

@@ -8,19 +8,20 @@ import List from '../Lists/Lists'
 
 
 function Categories (props) {
+    console.log(props.list_items)
     return (
-        <>
+        <>  
             <div className='category_container'>
-                <div className='category_name'>{props.name}</div>
-            </div> 
-            
-            <div>
-            {
-                props.list_items.map((e,i) => {
-                    return <List list_name={e.name} />
-                })
-            }
+                <div className='category_name_container'>
+                    <div className='category_name'>{props.name}</div>
+                </div>
+                <List list_items={props.list_items}/>
             </div>
+             
+            
+            
+            
+
         </>
     )
 };

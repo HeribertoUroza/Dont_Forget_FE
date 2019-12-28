@@ -22,6 +22,7 @@ class Landing extends Component {
             <>
                 <div className='container'>
                     <Catergories name={ catergories_name } list_items={ list_items }/>
+                    <Catergories name={catergories_name} list_items={list_items} />
                 </div>
             </>
         )
