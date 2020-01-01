@@ -2,3 +2,15 @@
     font-size: 1.5rem;
     margin-left: 10px;
 }
+
+.input_container {
+    text-align: center;
+}
+
+.submit_field {
+    border-bottom: 2px solid black;
+}
+
+.submit_btn {
+    border-radius: 50%;
+}
