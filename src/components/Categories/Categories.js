@@ -8,7 +8,7 @@ import List from '../Lists/Lists'
 
 
 function Categories (props) {
-    console.log(props.list_items)
+    
     return (
         <>  
             <div className='category_container'>
@@ -17,11 +17,6 @@ function Categories (props) {
                 </div>
                 <List list_items={props.list_items}/>
             </div>
-             
-            
-            
-            
-
         </>
     )
 };

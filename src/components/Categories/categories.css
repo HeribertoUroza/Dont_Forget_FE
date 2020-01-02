@@ -1,6 +1,8 @@
 .category_name_container {
     text-align: center;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid #AD00FF;
+    background-color: #AD00FF;
     border-radius: 35px;
     padding: 20px;
     margin-top: 10%;
