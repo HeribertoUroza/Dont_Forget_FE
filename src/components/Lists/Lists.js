@@ -15,8 +15,16 @@ class List extends Component {
 
     handleAddBtn = e => {
         e.preventDefault();
+        let { input, list_items } = this.state
+        console.log(input)
 
+        list_items.push({name: input, is_completed: 'FALSE'})
+
+        this.setState({ input: '', list_items: list_items})
+        
+        console.log(this.state)
     }
+
 
     render(){
         console.log(this.props.list_items)
