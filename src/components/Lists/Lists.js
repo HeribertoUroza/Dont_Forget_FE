@@ -5,17 +5,23 @@ import './lists.css'
 
 class List extends Component {
     state = {
-        input: ''
+        input: '',
+        list_items: this.props.list_items
     }
 
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
     }
 
+    handleAddBtn = e => {
+        e.preventDefault();
+
+    }
+
     render(){
         console.log(this.props.list_items)
-        let { input } = this.state;
-        let listItemArr = this.props.list_items
+        let { input, list_items } = this.state;
+       
         return(
             <>
                 <div className='input_container' >
@@ -23,10 +29,10 @@ class List extends Component {
                            placeholder='Add a ToDo' 
                            value={input} name='input' 
                            onChange={this.handleChange}/>
-                    <button className='submit_btn'>+</button>
+                    <button className='submit_btn' onClick={this.handleAddBtn} >+</button>
                 </div>
                 {
-                    listItemArr.map((e, i) => {
+                    list_items.map((e, i) => {
                         return <div className='list_name' key={i}>{e.name}</div>
                     })
                 }
