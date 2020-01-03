@@ -1,0 +1,10 @@
+.primary_btn_container {
+    text-align: center;
+}
+
+.primary_btn {
+    font-size: 2.4rem;
+    font-family: 'Ranga', cursive;
+    color: white;
+    background-color: #BE33FF;
+}
