@@ -5,6 +5,7 @@ import './landing.css';
 
 //COMPONENTS
 import Catergories from '../../components/Categories/Categories'
+import Primary from '../../components/Buttons/Primary/Primary'
 
 class Landing extends Component {
 
@@ -24,6 +25,7 @@ class Landing extends Component {
                     <Catergories name={ catergories_name } list_items={ list_items }/>
                     <Catergories name={catergories_name} list_items={list_items} />
                 </div>
+                <Primary btn_name='Sign Up'/>
             </>
         )
     }
