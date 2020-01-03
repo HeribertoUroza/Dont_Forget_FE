@@ -30,3 +30,13 @@
     font-size: 1.4rem;
     color: #AD00FF;
 }
+
+/* .list_container {
+    justify-content: space-between;
+
+} */
+ 
+.list_btn {
+    float: right;
+    margin-right: 20px;
+} 

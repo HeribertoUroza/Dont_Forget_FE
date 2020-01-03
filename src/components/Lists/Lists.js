@@ -42,7 +42,7 @@ class List extends Component {
                 </div>
                 {
                     list_items.map((e, i) => {
-                        return <div className='list_name' key={i} >{e.name} <button onClick={this.handleListItem}>X</button></div>
+                        return <div className='list_name' key={i} >{e.name} <button className='list_btn' key={i} onClick={this.handleListItem}>X</button></div>
                     })
                 }
             </>
