@@ -4,8 +4,9 @@ import React, { Component } from 'react';
 import './landing.css';
 
 //COMPONENTS
-import Catergories from '../../components/Categories/Categories'
-import Primary from '../../components/Buttons/Primary/Primary'
+import Catergories from '../../components/Categories/Categories';
+import Primary from '../../components/Buttons/Primary/Primary';
+import Secondary from '../../components/Buttons/Secondary/Secondary';
 
 class Landing extends Component {
 
@@ -28,6 +29,7 @@ class Landing extends Component {
 
                 <div className='btn_container'>
                     <Primary btn_name='Sign Up' />
+                    <Secondary btn_name='Login' />
                 </div>
             </>
         )
