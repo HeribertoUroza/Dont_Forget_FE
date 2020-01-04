@@ -3,9 +3,9 @@
     flex-wrap: nowrap;
 }
 
-.btn_container {
+.btn_container { 
     text-align: center;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center; 
     align-items: center; 
