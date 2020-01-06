@@ -3,8 +3,7 @@
     font-family: 'Ranga', cursive;
     color: white;
     background-color: #BE33FF;
-    padding-left: 30%;
-    padding-right: 30%;
+    width: 297px;
     border-radius: 30px;
-    
+    display: block;
 }

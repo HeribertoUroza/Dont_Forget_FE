@@ -7,7 +7,9 @@ function Primary(props) {
     
     return(
         <> 
-            <button className='primary_btn' onClick={e => { console.log('click') }}>{props.btn_name}</button>
+            <div className='p_container'>
+                <button className='primary_btn' onClick={e => { console.log('click') }}>{props.btn_name}</button>
+            </div>
         </>
     )
 };

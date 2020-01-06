@@ -29,8 +29,6 @@ class Landing extends Component {
 
                 <div className='btn_container'>
                     <Primary btn_name='Sign Up' />
-                </div>
-                <div className='btn_container'>
                     <Secondary btn_name='Login' />
                 </div>
             </>

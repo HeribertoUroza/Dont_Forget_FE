@@ -1,10 +1,13 @@
+.p_container {
+    display: block;
+}
+
 .primary_btn {
     font-size: 2.4rem;
     font-family: 'Ranga', cursive;
     color: white;
     background-color: #BE33FF;
-    padding-left: 30%;
-    padding-right: 30%;
+    width: 297px;
     border-radius: 30px;
-    white-space: nowrap;
+    display: block;
 }
