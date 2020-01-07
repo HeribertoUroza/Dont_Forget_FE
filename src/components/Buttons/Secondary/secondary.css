@@ -1,9 +1,10 @@
 .secondary_btn {
     font-size: 2.4rem;
     font-family: 'Ranga', cursive;
-    color: white;
-    background-color: #BE33FF;
+    color: black;
     width: 297px;
     border-radius: 30px;
+    border: #BE33FF solid 2px;
+    background-color: #f7e6ff;
     display: block;
 }
