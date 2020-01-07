@@ -26,7 +26,12 @@ class Landing extends Component {
                     <Catergories name={ catergories_name } list_items={ list_items }/>
                     <Catergories name={catergories_name} list_items={list_items} />
                 </div>
-
+                
+                <div className='title_container'>
+                    <div className='title1'>So You</div>
+                    <div className='title2'>Don't Forget...</div>
+                </div>
+                
                 <div className='btn_container'>
                     <Primary btn_name='Sign Up' />
                     <Secondary btn_name='Login' />
